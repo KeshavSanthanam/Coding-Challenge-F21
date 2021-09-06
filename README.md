@@ -6,6 +6,10 @@ I assigned sentiment values to various keywords throughout the provided text. Ea
 
 I used encapsulation to call a repeating Python function for each of the aforementioned steps. This enabled me to do the same for each sentence individually while simultaneously improving the readability of the program. 
 
+I found an overall positive sentiment score of 4.5 for the given input. I expected a greater score of 10, so this result came as a surprise. I conclude that this must indicate that the positive second paragraph skewed my views of the text to more positive values or that more precision is needed in order to effectively process the keywords I found. 
+
+The individual sentence scores were more or less consistent with what I expected. I'm glad I decided to include them because it justified my suspicion that the second paragraph was for more "positive" than the first, which shows me an example of using sentiment analysis to make reasonable albeit elementary conclusions from text. 
+
 ## [](https://github.com/ACM-Research/Coding-Challenge-F21#no-collaboration-policy)No Collaboration Policy
 
 **You may not collaborate with anyone on this challenge.**  You  _are_  allowed to use Internet documentation. If you  _do_  use existing code (either from Github, Stack Overflow, or other sources),  **please cite your sources in the README**.
