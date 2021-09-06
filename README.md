@@ -1,5 +1,11 @@
 # ACM Research Coding Challenge (Fall 2021)
 
+## Explanation
+
+I assigned sentiment values to various keywords throughout the provided text. Each of these keywords' values would be multiplied by a constant based on whether it showed a strong or weak expression of sentiment, as well as whether or not it invoked a positive or negative connotation. From there, I was able to calculate an overall score based on the sum of these sentiment scores. 
+
+I used encapsulation to call a repeating Python function for each of the aforementioned steps. This enabled me to do the same for each sentence individually while simultaneously improving the readability of the program. 
+
 ## [](https://github.com/ACM-Research/Coding-Challenge-F21#no-collaboration-policy)No Collaboration Policy
 
 **You may not collaborate with anyone on this challenge.**  You  _are_  allowed to use Internet documentation. If you  _do_  use existing code (either from Github, Stack Overflow, or other sources),  **please cite your sources in the README**.
